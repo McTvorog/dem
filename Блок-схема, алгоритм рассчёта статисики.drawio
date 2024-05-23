@@ -1,0 +1,40 @@
+<mxfile host="Electron" modified="2024-05-23T19:36:41.690Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.6 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="fl70T9PwmIvO6UVLpAv4" version="24.4.6" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="401" dy="876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="saAbReULlgdan71qu-na-15" value="Алгоритм &quot;статистики по типам неисправностей&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="65" y="30" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fkbHzQ_ai6f3wUw9fQUz-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fkbHzQ_ai6f3wUw9fQUz-0" target="fkbHzQ_ai6f3wUw9fQUz-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkbHzQ_ai6f3wUw9fQUz-0" value="Начало" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="80" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fkbHzQ_ai6f3wUw9fQUz-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fkbHzQ_ai6f3wUw9fQUz-2" target="fkbHzQ_ai6f3wUw9fQUz-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkbHzQ_ai6f3wUw9fQUz-2" value="Получение данных из БД всех заявок" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="142.5" y="140" width="145" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fkbHzQ_ai6f3wUw9fQUz-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fkbHzQ_ai6f3wUw9fQUz-11" target="fkbHzQ_ai6f3wUw9fQUz-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkbHzQ_ai6f3wUw9fQUz-11" value="Сортировка заявок по типам неисправности" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="142.5" y="210" width="145" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fkbHzQ_ai6f3wUw9fQUz-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="fkbHzQ_ai6f3wUw9fQUz-13" target="fkbHzQ_ai6f3wUw9fQUz-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fkbHzQ_ai6f3wUw9fQUz-13" value="Сохранение данных" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="142.5" y="280" width="145" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fkbHzQ_ai6f3wUw9fQUz-15" value="Конец" style="ellipse;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="350" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
